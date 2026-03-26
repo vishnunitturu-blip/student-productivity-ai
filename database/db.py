@@ -1,7 +1,7 @@
 import sqlite3
 
 def init_db():
-    conn = sqlite3.connect("tasks.db")
+    conn = sqlite3.connect("database/tasks.db")
     cursor = conn.cursor()
 
     cursor.execute("""
